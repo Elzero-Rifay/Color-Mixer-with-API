@@ -12,15 +12,15 @@
         
         <div class="inputs" >
             <label for="red" >r</label>
-            <input type="range" id="red"  value="255"  min="0" max="255"  > 
+            <input type="range" id="red"  value="255"  min="0" max="255" onmousemove="moveColors()" > 
         </div>
         <div class="inputs">
             <label for="green" >g</label>
-            <input type="range" id="green"  value="255"  min="0" max="255"  >
+            <input type="range" id="green"  value="255"  min="0" max="255" onmousemove="moveColors()"  >
         </div>
         <div class="inputs" >
             <label for="blue" >b</label> 
-            <input type="range" id="blue"  value="255"  min="0" max="255"   > 
+            <input type="range" id="blue"  value="255"  min="0" max="255"  onmousemove="moveColors()" > 
         </div>
            <p id="resultInHexa" >#ffffff</p>
           <button onclick="chagneColor()" >Random Color</button>
